@@ -105,7 +105,7 @@ String.fromByteArray = function(byteArray: any, to: string): any {
         for (var i = 0; i < len; i++) {
             binary += String.fromCharCode(bytes[i]);
         }
-        return window.btoa(binary);
+        return btoa(binary);
     };
 
     switch (to) {
@@ -242,7 +242,7 @@ String.prototype.fromBase64 = function(to: string, flag?: boolean): any {
     var base64 = this.toString();
 
     var toByteArray = (inArrayFormat = false): any => {
-        var binary_string = window.atob(base64);
+        var binary_string = atob(base64);
         var len = binary_string.length;
         var bytes = inArrayFormat && new Array(len) || new Uint8Array(len);
         for (var i = 0; i < len; i++) {

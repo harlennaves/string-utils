@@ -1,5 +1,5 @@
 {
-  "name": "stringutils",
+  "name": "string-extensions",
   "description": "Many aditional functions added to the String prototype",
   "main": "",
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
-  "name": "string-utils",
+  "name": "string-extensions",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
