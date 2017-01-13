@@ -1,0 +1,17 @@
+{
+  "name": "stringutils",
+  "description": "Many aditional functions added to the String prototype",
+  "main": "",
+  "license": "MIT",
+  "authors" : [
+    "Harlen Morais Naves <harlennaves@gmail.com>"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

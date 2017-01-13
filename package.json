@@ -1,0 +1,13 @@
+{
+  "name": "string-utils",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "gulp": "*",
+    "gulp-typescript": "*",
+    "gulp-uglify": "*"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}
